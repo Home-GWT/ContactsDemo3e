@@ -1,0 +1,37 @@
+/** Add css rules here for your application. */
+.greenBackground {
+	background-color: green;
+}
+
+.yellowBackground {
+	background-color: yellow;
+}
+
+.redBackground {
+	background-color: red;
+}
+
+.separatorLabel {
+	color: #254b87;
+	font-weight: bold;
+}
+
+.greyBackground {
+	background-image: -webkit-radial-gradient(50% 50%, circle closest-corner, #ededed, #d0d0d0);
+	background-color: #ededed;
+}
+
+.darkGreyBackground {
+	background-image: url('images/toolbar-bg.png');
+	background-repeat: repeat-x;
+}
+
+/* Splitters */
+.gwt-SplitLayoutPanel-HDragger,.gwt-SplitLayoutPanel-VDragger {
+	background: -webkit-radial-gradient(50% 50%, circle closest-corner, #ededed, #cdcdcd) !important;
+	background-color: #e0e0e0 !important;
+}
+
+.null-splitter{
+width: 2px !important;
+}
